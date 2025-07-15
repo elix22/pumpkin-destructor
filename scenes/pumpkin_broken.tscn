@@ -1,0 +1,8 @@
+[gd_scene load_steps=3 format=3 uid="uid://c62arjds65uf5"]
+
+[ext_resource type="PackedScene" uid="uid://l47uwujy85lf" path="res://models/Pumpkin-broken.glb" id="1_dbwdp"]
+[ext_resource type="Script" uid="uid://cthbvmbvsve0l" path="res://scripts/pumpkin_destructor.gd" id="2_o4bqd"]
+
+[node name="Pumpkin-broken" instance=ExtResource("1_dbwdp")]
+script = ExtResource("2_o4bqd")
+Intencity = 6.0

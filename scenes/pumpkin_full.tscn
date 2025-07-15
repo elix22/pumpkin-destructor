@@ -1,0 +1,9 @@
+[gd_scene load_steps=4 format=3 uid="uid://cgxslevnmo4e6"]
+
+[ext_resource type="PackedScene" uid="uid://cod4vkhblqagq" path="res://models/Pumpkin.glb" id="1_7wigm"]
+[ext_resource type="Script" uid="uid://c104kq0jo1i63" path="res://scripts/pumpkin_control.gd" id="2_x7cpp"]
+[ext_resource type="PackedScene" uid="uid://c62arjds65uf5" path="res://scenes/pumpkin_broken.tscn" id="3_beisx"]
+
+[node name="Pumpkin" instance=ExtResource("1_7wigm")]
+script = ExtResource("2_x7cpp")
+broken_model_scene = ExtResource("3_beisx")
